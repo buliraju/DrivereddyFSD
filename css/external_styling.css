@@ -1,0 +1,47 @@
+h3,p{
+	color: blue;
+	font-size: 80px;
+	border: dashed;
+	background: red;
+	background-image: "image2/mustangmustangleftfrontthreequarter.jpg"
+}
+*{
+	font-family: cursive;
+	 margin: 0px;
+	padding: 0px;
+}
+input[type]{
+	color: red;
+}
+a[href]{
+	color: blue;
+}
+
+}
+input[type="text"]{
+	color: 	blue;
+}
+input[type="numbers"]{
+	color: 	green;
+}
+input[type="password"]{
+	color: yellow;
+}
+img[src]{
+	border :10px black;
+}
+
+a:link{
+	color: 	yellow;
+}
+a:hover{
+	color: green;
+	height: 20px;
+	width: 	30px;
+}
+a:active{
+	color: 	black;
+} 
+a:visited{
+	color: 	pink;
+}

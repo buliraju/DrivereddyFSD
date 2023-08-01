@@ -1,0 +1,10 @@
+.container{
+	display: flex;
+	border-style: dotted;
+			height: 75px;
+			width: 250px;
+			text-align: center;
+			line-height:  75px;
+			border-color: green;
+			
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Form Example</title>
+</head>
+<body>
+
+<!-- Create a form -->
+<form action="/submit_form" method="post">
+    <!-- Add a label and input field for a text input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <!-- Add a label and input field for an email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+    <!-- Add a label and input field for a password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Add a label and input field for a date input -->
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+
+    <!-- Add a label and input field for a checkbox input -->
+    <label for="newsletter">Subscribe to newsletter:</label>
+    <input type="checkbox" id="newsletter" name="newsletter">
+
+    <!-- Add a label and input field for a radio button input -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label>
+
+    <!-- Add a label and input field for a dropdown (select) input -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+        <option value="">Select Country</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+    </select>
+
+    <!-- Add a label and input field for a textarea input -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+    <!-- Add a submit button to submit the form -->
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

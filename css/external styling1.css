@@ -1,0 +1,28 @@
+table{
+	border-collapse:  collapse;
+}
+table, th,td{
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+.raju{
+	background-color: lightgrey;
+	height: 100px;
+	width: 1500px
+}
+.vara{
+	background-color: lightgrey;
+	height: 150px;
+	width: 1500px;
+}
+.vishnu{
+	background-color: lightgrey;
+	height: 150px;
+	width: 1500px;
+
+}
+.bulli{
+	position: relative;
+	top: 50px;
+    left: 35px
+}
